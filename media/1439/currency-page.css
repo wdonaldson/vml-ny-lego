@@ -843,7 +843,8 @@ div.currency-spendings ul li > img {
     margin-bottom: 0;
   }
  .gbp {
-    background-image: url(/media/1549/currency-info-page-bg-image-intro-mobile-gbp.jpg);
+    /*background-image: url(/media/1549/currency-info-page-bg-image-intro-mobile-gbp.jpg);*/
+	background-image: url(/media/1549/lego-hero-mobile.jpg);
   }
 .cad{
  background-image: url(/media/1552/currency-info-page-bg-image-intro-mobile-cad.jpg);
