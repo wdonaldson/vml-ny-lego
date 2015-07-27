@@ -1002,3 +1002,8 @@ padding: 10px;
 font-size: 18px;
 }
 }
+
+/**** Added by VML *****/
+.left.currency-spendings {
+    width: 100%;
+}
