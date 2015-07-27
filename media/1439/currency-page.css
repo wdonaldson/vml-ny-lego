@@ -1,0 +1,1003 @@
+.country-budgeting,.currency-page-misc{
+  padding: 20px;
+}
+.pull-right {
+float: right;
+}
+.currency-info-page .image-intro span.cutout{
+  display: none;
+}
+.currency-info-page-header h1{
+  color:red;
+  font-size: 45px;
+  color: #ed1b2d;
+}
+.currency-info-page-header p{
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+}
+.currency-info-page-header  ul, .currency-info-page-header  ul li, #store-thumb-view ul, #store-thumb-view ul li, ul.ways-to-order, ul.ways-to-order li, div.ways-to-order-buy ul,div.ways-to-order-buy ul li{
+  list-style: none; padding: 0; margin: 0;
+}
+.currency-info-weather ul,.currency-info-exrate ul{
+  width: 82%;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+}
+.currency-info-exrate ul{
+  border: 1px solid #fff;
+}
+.currency-info-weather{
+    margin-top: 30px;
+}
+.currency-info-page .image-intro{
+  padding: 60px 20px 30px 20px;
+  margin-bottom: 3px;
+}
+.currency-info-weather ul{
+  border-top: 1px solid #cacecd;
+  border-bottom: 1px solid #cacecd;
+}
+.currency-info-exrate ul li, .currency-info-weather ul li{
+  display: inline-block;
+}
+.currency-info-exrate ul li, .currency-info-weather ul li{
+  padding: 7%;
+  font-size: 20px;
+  text-align: center;
+}
+.currency-info-exrate ul li:first-child{
+  background: #fff;
+}
+.currency-info-weather ul li:first-child{
+  background-repeat: no-repeat;
+  background-position:  0 center;
+  padding-left: 50px;
+}
+.currency-info-weather ul li:first-child span.api-data.temp {
+border-left: 0 none;
+margin-left: 0px;
+padding-left: 0px;
+}
+.currency-info-weather ul li span.api-data.curWeatherConditions {
+border-left: 1px solid #868989;
+margin-left: 20px;
+padding-left: 20px;
+}
+.currency-info-page .currency-buy{
+  background: #fff;
+  padding: 20px;
+}
+.currency-info-page .currency-buy h2:first-child{
+  margin-top:0;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+}
+.currency-info-page .currency-converter {
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 0px;
+  border-top: 1px solid #e8e8e9;
+  border-bottom: 1px solid #e8e8e9;
+}
+.currency-info-page .currency-converter .enter-amount .ealeft input, .currency-info-page .currency-converter .enter-amount .earight input {
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  color:#000000;
+  margin-top: -3px;
+}
+.currency-info-page .currency-converter .enter-amount label{
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 15px;
+}
+.currency-info-page .currency-converter .enter-amount span.eq{
+  margin-top: 2px;
+}
+.currency-info-page .currency-converter .enter-amount{
+  padding-top: 10px;
+  margin-bottom: 45px;
+}
+.currency-info-page .currency-converter .currate-left, .currency-info-page .currency-converter  .currate-right{
+  font-style: normal;
+  font-family: "FS Me Web Regular",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 13px;
+  width: 47%;
+  display: block;
+  float: left;  
+  padding-right: 15px;
+   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: right;
+}
+.currency-info-page .currency-converter  .currate-right{
+  float: right;
+  text-align: left;
+}
+.currency-info-page .currency-converter h3:first-child{
+  margin-top: 0;
+  font-weight: normal;
+  font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+}
+.currency-info-page .currency-converter input{
+  font-family: "FS Me Web Regular",Helvetica,Arial,Verdana,sans-serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: normal;
+}
+.currency-info-page .currency-converter + button.red-button{
+  width: 100%;
+  padding: 12px;
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+  text-align: center;
+}
+.currency-info-page .currency-converter + button.red-button + a{
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+.currency-info-exrate strong, .currency-info-weather strong{
+  font-size: 20px;
+  padding-bottom: 10px;
+  display: block;
+}
+.currency-info-page .currency-budget{
+  background: url(../1321/currency-budget-bg.jpg) no-repeat 0 center;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.currency-info-page .currency-spendings ul{
+  display: table;
+  width: 100%;
+}
+
+
+.currency-info-page .currency-spendings ul, .currency-info-page .currency-spendings ul li{
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+}
+.currency-info-page .currency-spendings ul li{
+  border-top: 1px solid #d6d7d7;
+  padding: 20px 0px;
+  vertical-align: middle;
+}
+.currency-info-page .currency-spendings ul li.last{
+  padding-bottom: 0;
+}
+.currency-info-page .currency-spendings ul li:first-child{
+  border-top: 0 none;
+} 
+.currency-info-page .currency-spendings ul li img{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 20px 0px 0px;
+}
+.currency-info-page .left p,.currency-info-page .right p{
+  line-height: normal;
+  padding:0;
+  margin: 0;
+  display: inline-block;
+  font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+  width: 60%;
+  vertical-align: middle;
+}
+.currency-info-page .currency-spendings .fx-rates{
+float: right;
+width: 25%;
+}
+.currency-info-page .currency-spendings .fx-rates span{
+  display: block;
+  text-align: center;
+}
+.currency-info-page .currency-spendings .fx-rates .local-cur{
+  font-size: 23px;
+}
+.currency-info-page .currency-spendings .fx-rates .fgn-cur{
+  font-size: 15px;
+}
+.currency-info-page .currency-budget{
+  color: #fff;
+}
+.currency-info-page .currency-budget .currency-budget-calc{
+  padding:  0 0 0px 50px;
+}
+.currency-info-page .currency-budget .currency-budget-calc label{
+  display: block;
+  margin:0 0px 15px 0px;
+}
+.currency-info-page .currency-budget .currency-budget-calc h2 + label{
+  padding-top:20px;  
+}
+.currency-info-page .currency-budget .currency-budget-calc hr{
+  background-color:#5f676e;
+  height: 1px;
+  border: 0 none;
+  display: block;
+  margin-right: 30px
+}
+.btn-group .btn, .nupd-custom .btn {
+  margin-bottom: 0;
+  font-size: 15px;
+  text-align: center;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  background-color: rgba(102,104,105);
+  background-color: rgba(102,104,105,0.6);
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+  border: 0 none;
+  color: #fff;
+  padding: 20px;
+  float: left;
+}
+.btn-group .btn:hover{
+  background-color: #e1e1e1;
+  color: #3983CE;
+}
+.nupd-custom .btn, .nupd-custom input[type="text"]{
+  padding:1px 9px;
+  background-color: #f9f6f6;
+  color: #666;
+  font-size: 25px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  display: inline-block;
+  float: left;
+  width: 20px;
+}
+.nupd-custom input[type="text"]{
+  width: 40px;
+  border: 0 none;
+  text-align: center;
+  padding:8px 15px 7px 15px;
+  margin: 0 10px;
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 15px;
+  background-color: #fff;
+}
+.currency-info-page .currency-budget .currency-budget-calc .btn.blue-btn{
+  width: 40%;
+  margin-top: 40px;
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+}
+.must-see-slideshow{
+  background: #fff;
+  text-align: center;
+}
+.must-see-slideshow h2{
+  font-weight: normal;
+}
+.currency-info-page  .slick-slide .caption{
+  position: absolute;
+  width: 50%;
+  bottom: 5%;
+  left: 2%;
+  background: #fff;
+  display: inline-block;
+  display: table;
+}
+.currency-info-page  .slick-slide .caption,  .currency-info-page  .slick-slide .caption li{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  background: #f7961d;
+   font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+}
+.currency-info-page  .slick-slide .caption li{
+  width: 80%;
+  background: #fff;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+.currency-info-page  .slick-slide .caption li:first-child{
+  vertical-align: middle;
+  width: 20%;
+  background: #f7961d;
+  color: #fff;
+  font-size: 20px;
+}
+section.no-lr-padding{
+  padding: 0;
+} 
+.mustsee-slider:before {
+  content: " ";
+  background: url(../1341/white-arrow-down-cut.png) no-repeat 0 center;
+  width: 33px;
+  height: 18px;
+  left:50%;
+  position: absolute;
+  z-index: 999;
+  margin-left: -33px;
+}
+.currency-info-page .slick-slider{
+  margin: 0 auto 0 auto;
+}
+.currency-info-page .slick-slider .slick-dots{
+  bottom: auto;
+  width: auto;
+  top: 0;
+  right: 20px;
+}
+.currency-info-page .slick-slider .slick-dots li button:before{
+  font-size: 20px;
+  color: #fff;
+  opacity: 1;
+}
+.exchange-promo{
+  margin-bottom: 20px;
+}
+.currency-info-page .slick-slider  .slick-dots li.slick-active button:before{
+  color: #3983ce;
+}
+.currency-info-page .slick-slider .slick-prev, .currency-info-page .slick-slider .slick-next{
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  opacity: 0.4;
+}
+.currency-info-page .slick-slider .slick-prev:hover, .currency-info-page .slick-slider .slick-next:hover{
+  opacity: 1;
+}
+.currency-info-page .slick-slider .slick-prev {
+  left:0;
+  color:red;
+  background: url(../1332/slide-prev.png) no-repeat 0 center;
+}
+.currency-info-page .slick-slider .slick-next{
+  right:0;
+  background: url(../1333/slide-next.png) no-repeat 0 center;
+}
+.currency-info-page .slick-slider .slick-prev:before, .currency-info-page .slick-slider .slick-next:before{
+  content: "";
+}
+.exchange-promo-slider.slick-slider .slick-next, .exchange-promo-slider.slick-slider .slick-prev{
+  background: none;
+  opacity: 1;
+  width: auto;
+}
+.exchange-promo-slider.slick-slider .slick-prev:before, .exchange-promo-slider.slick-slider .slick-next:before {
+  font-family: icomoon-ultimate;
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 20px;
+  color:#fff;
+  opacity: 1;
+  font-size: 20px;
+}
+.exchange-promo-slider.slick-slider .slick-prev:before {
+  content: "1";
+}
+.exchange-promo-slider.slick-slider .slick-next:before {
+  content: "y";
+}
+.exchange-promo-slider.slick-slider .slick-list {
+  margin:  0 30px;
+}
+.main-container .eighteen-col.currency-page-misc-content{
+ margin: 0 auto 
+}
+.tvx-testimonials, .currency-page-misc-info{
+  background: #fff;
+  padding: 20px;
+  overflow:hidden;
+}
+.currency-page-misc-info{
+ padding: 20px 20px 10px 20px; 
+ border-left: 1px solid #d1d3d4;
+}
+.currency-page-misc-info .red-button, .exchange-promo .red-button{
+  min-width: 50%;
+  padding: 12px;
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+  text-align: center;
+  float: none;
+  margin: 30px 0px;
+}
+ .exchange-promo .red-button{
+  margin: 0px auto;
+  width: 30%;
+  min-width: 0;
+ }
+.currency-page-misc-info h2:first-child{
+  margin-top: 0;
+}
+.tvx-testimonials:after{
+  content: " ";
+  background: url(../1341/white-arrow-down-cut.png) no-repeat 0 center;
+  width: 33px;
+  height: 18px;
+  left:50%;
+  position: absolute;
+  z-index: 999;
+  margin-left: -33px;
+  bottom: -18px;
+}
+.currency-info-page .currency-page-misc .left p, .currency-info-page .currency-page-misc .right p
+{
+  width: auto;
+}
+.currency-info-page .tvx-testimonials p{
+  font-size: 22px;
+  font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+  color: #000;
+  padding: 40px 80px;
+}
+.tvx-testimonials-rotator .tvx-testimonial:before, .tvx-testimonials-rotator .tvx-testimonial:after{
+  content: '\201C';
+  left:8%;
+  position: absolute;
+  font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 80px;
+  color: #00adef;
+  margin-top: 75px;
+  line-height: 0;
+}
+.tvx-testimonials-rotator .tvx-testimonial:after{
+  content: '\201D';
+right: 12%;
+left: auto;
+bottom: 66px;
+}
+.tvx-testimonials p span{
+  font-size: 15px;
+  color: #666;
+  display: block;
+  padding-top: 15px;
+}
+.dark-bg{
+  background: #eeefef;
+}
+.currency-info-page .exchange-promo{
+  background:  url(../1330/map-opaque.png) no-repeat 0 center #05519f;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+.currency-info-page .exchange-promo h1{
+  font-size: 45px;
+  font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+  font-weight: normal;
+ 
+}
+.currency-info-page .exchange-promo  p{
+  font-size: 20px;
+}
+.exchange-promo-step, .exchange-promo-step li{
+  list-style: none;
+  font-size: 20px;
+  font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+  padding-left: 0;
+}
+.exchange-promo-step span[data-icon]{
+  font-size: 90px;
+}
+.currency-info-page .exchange-promo div.six-col{
+  background-color: #1e63a9;
+  padding-bottom: 30px;
+  margin-top:20px;
+}
+.currency-info-page .exchange-promo-step li p{
+  font-size: 15px;
+  padding-left:35px;
+  padding-right:35px;
+}
+.exchange-promo article:first-child{
+  margin: 0 auto;
+}
+.currency-info-page .nearyby-store h4{
+  font-family: "FS Me Web Light",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 25px;
+  border-bottom: 0 none;
+  background: none;
+  padding-bottom: 10px;
+  margin: 20px 0 7px 0;
+  padding-left: 0;
+  font-weight: normal;
+}
+.infographic-array{
+  float: right;
+  margin-right: 11%;
+  margin-top: -9px;
+}
+.infographic-array img{
+  opacity: 0.4;
+  margin-left: 7px;
+  -webkit-transition:all .3s;
+  -moz-transition:all .3s;
+  -o-transition:all .3s;
+  -ms-transition:all .3s;
+  transition:all .3s;
+}
+.infographic-array img:first-child{
+  opacity: 1;
+}
+.btn-group .btngroupselect{
+  display: block;
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 5px;
+  width: 100%;
+  display: none;
+}
+.btn-group .selected{
+  background: #e1e1e1;
+  color: #3983CE;
+}
+.btn-group input[type=radio] {display: none;}
+.btn-group input[type="radio"] + label {
+  display: inline-block;
+  padding-bottom: 0px;
+  float: left;
+}
+.btn-group input[type="radio"]:checked + label span.styled-radio, .btn-group input[type="radio"] + label span.styled-radio:hover {
+  background-color: #e1e1e1;
+  color: #3983CE;
+}
+.btn-group input[type="radio"] + label span.styled-radio {
+  background-color: rgba(102,104,105,0.6);
+  margin-bottom: 0;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+  border: 0 none;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+}
+.currency-info-page .currency-budget .currency-budget-calc-result {
+  padding: 0 0 0px 50px;
+}
+.currency-info-page .currency-budget .currency-budget-calc-result hr{
+  background-color: #5f676e;
+  height: 1px;
+  border: 0 none;
+  display: block;
+  margin-right: 30px;
+}
+.currency-budget-calc-result .total-budget{
+  font-size: 65px;
+  margin: 20px 0px;
+}
+.currency-info-page .currency-budget .currency-budget-calc-result .red-button{
+  width: auto;
+  padding: 10px 20px;
+  font-family: "FS Me Web Bold",Helvetica,Arial,Verdana,sans-serif;
+  font-size: 18px;
+  float: none;
+  display: block;
+  margin: 50px 0 40px 0;
+  text-align: center;
+}
+.currency-budget-calc-result{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+}
+.currency-info-page .currency-budget .currency-budget-calc-result .red-button .vr{
+  margin-left:20px; 
+}
+ul.currency-budget-calc-result-summary{
+  margin: 0;
+  padding: 20px 0px 24px 0px;
+}
+ul.currency-budget-calc-result-summary li{
+  font-size: 14px;
+  display: inline;
+  margin-right: 5%;
+}
+ul.currency-budget-calc-result-summary li img{
+  margin-right: 10px;
+}
+ul.currency-budget-calc-result-summary li + li img{
+  max-width: 3%;
+}
+ul.currency-budget-calc-result-summary li + li + li img{
+  margin-top: -10px;
+  max-width: 100%;
+}
+.currency-info-page .currency-budget .currency-budget-calc-result, .currency-info-page .currency-budget .currency-budget-calc {
+  padding: 0 0 0px 30px;
+}
+.currency-info-page .currency-budget-calc p.select-budget {
+  color: red;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  display: inline-block;
+  clear: both;
+  color: #ed1c2e;
+  padding: 5px 30px;
+  background: #fff;
+  font-style: italic;
+}
+.currency-budget-calc-result{
+  display: none;
+}
+.currency-info-page .currency-budget{
+  position: relative;
+  min-height: 560px;
+  padding-bottom: 0;
+}
+a.recalculate-budget img{
+  margin-right: 10px;
+}
+a.recalculate-budget{
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "FS Me Web Regular",Helvetica,Arial,Verdana,sans-serif;
+  font-weight: normal;
+}
+.prime-red {
+color: #ed1b2d;
+}
+/* eur fixes */
+.currency-info-page .image-intro.eur .currency-info-exrate strong,  .currency-info-page .image-intro.eur  .currency-info-weather strong,
+.currency-info-page .image-intro.eur .currency-info-page-header h1,  
+.currency-info-page .image-intro.eur .currency-info-page-header p{
+    color: #fff;
+  }
+  .currency-info-page .image-intro.eur .currency-info-exrate ul, .currency-info-page .image-intro.eur .currency-info-weather ul{
+  background: rgba(255,255,255,0.7);
+  color: #666;
+}
+.currency-info-page .image-intro.eur .currency-info-weather ul li:first-child, 
+.currency-info-page .image-intro.gbp .currency-info-weather ul li:first-child, 
+.currency-info-page .image-intro.vnd .currency-info-weather ul li:first-child, 
+.currency-info-page .image-intro.jpy .currency-info-weather ul li:first-child,
+.currency-info-page .image-intro.cad .currency-info-weather ul li:first-child,
+.currency-info-page .image-intro.aud .currency-info-weather ul li:first-child,
+.currency-info-page .image-intro.brl .currency-info-weather ul li:first-child,
+.currency-info-page .image-intro.cny .currency-info-weather ul li:first-child {
+      background-position: 20px center;
+      padding-left: 70px;
+}
+.disabled{
+  background-color: rgba(0,0,0,0.2) !important;
+}
+div.currency-spendings ul li > img {
+  width: 35px;
+}
+
+  /* eur fixes */
+
+@media only screen and (max-width: 1055px){
+   .currency-info-weather ul, .currency-info-exrate ul{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1040px){
+    .currency-info-page .currency-converter .enter-amount label{
+    font-size: 13px;
+  }
+  .currency-info-page .currency-spendings .fx-rates .local-cur{
+    font-size: 20px;
+  }
+   .currency-page-misc-info .red-button{
+    min-width: 60%;
+  }
+}
+@media only screen and (max-width: 965px){
+   .currency-info-exrate ul li, .currency-info-weather ul li{
+    padding: 5%;
+  }
+  .currency-info-page .currency-budget .currency-budget-calc{
+    padding-left: 20px;
+  }
+  .currency-info-page .currency-spendings ul, .currency-info-page .currency-spendings ul li{
+    font-size: 16px;
+  }
+  .currency-info-page .currency-budget{
+    padding-bottom: 40px;
+  }
+  .currency-info-page .exchange-promo-step li p{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .currency-info-page .currency-converter .enter-amount .ealeft input, .currency-info-page .currency-converter .enter-amount .earight input{
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 890px){
+
+  .currency-info-page .slick-slide .caption{
+    width: 90%;
+  }
+  .currency-info-page .currency-buy{
+    width: 30%;
+  }
+  .currency-info-exrate ul li, .currency-info-weather ul li{
+    font-size: 16px;
+    padding: 4%;
+  }
+  .currency-info-page .currency-spendings.left, .currency-info-page .currency-budget.right, .currency-info-page .currency-spendings .seventeen-col{
+    float: none;
+    width: auto;
+    display: block;
+    margin-right: 0;
+    overflow:hidden;
+  }
+  .currency-info-page .currency-spendings ul{
+    width: 100%;
+  }
+  .currency-info-page .currency-spendings ul li{
+    float: none;
+    width: auto;
+    padding: 10px 0px;
+  }
+  .currency-info-page .image-intro{
+
+    padding:30px 20px 30px 20px;
+  }
+  .currency-info-page .currency-budget .currency-budget-calc{
+    padding: 10px 20px;
+  }
+  .currency-info-page .currency-budget{
+    padding-bottom: 20px;
+  }
+  .currency-page-misc-info .red-button{
+    width: 100%;
+  }
+  .currency-info-page .tvx-testimonials p{
+    padding: 20px 70px;
+  }
+  .tvx-testimonials-rotator .tvx-testimonial:after{
+    bottom: 45px;
+  }
+  .tvx-testimonials-rotator .tvx-testimonial:before{
+    margin-top: 54px;
+  }
+}
+@media only screen and (max-width: 768px){
+
+  .exchange-promo .red-button{
+    width: 50%;
+  }
+  .currency-info-page .exchange-promo h1{
+    font-size: 40px;
+    margin-top: 0;
+  }
+  .currency-info-page .currency-buy{
+    width: 35%;
+    background-color: rgba(255,255,255,0.8);
+  }
+  .currency-info-page .currency-page-misc .left, .currency-info-page .currency-page-misc .right, .currency-info-page .currency-page-misc .left .seventeen-col{
+    float: none;
+    width: auto;
+    display: block;
+    margin-right: 0;
+    border: 0 none;
+  }
+  .currency-page-misc-info{
+    border: 0 none;
+    margin-top: 40px;
+  }
+  .tvx-testimonials-rotator .tvx-testimonial:before {
+    left: 4%;
+  }
+  .currency-info-weather ul, .currency-info-exrate ul{
+    width: auto;
+  }
+  .currency-info-weather ul li:first-child{
+    padding-left: 40px;
+  }
+}
+@media only screen and (max-width: 640px){
+  .currency-info-page .currency-budget{
+    min-height: 500px;
+  }
+
+.currency-info-page .currency-info-exrate, .currency-info-page .currency-info-weather, .currency-info-page  .image{
+    display: none;
+  }
+  .currency-info-page .mustsee-slider .caption{
+    display: none;
+  }
+  
+ .currency-info-page .image-intro {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% center;
+    margin-bottom: 0;
+  }
+ .gbp {
+    background-image: url(/media/1549/currency-info-page-bg-image-intro-mobile-gbp.jpg);
+  }
+.cad{
+ background-image: url(/media/1552/currency-info-page-bg-image-intro-mobile-cad.jpg);
+ }
+  .brl {
+    background-image: url(/media/1551/currency-info-page-bg-image-intro-mobile-brl.jpg);
+  }
+   .eur {
+    background-image: url(/media/1554/currency-info-page-bg-image-intro-mobile-eur.jpg);
+  }
+   .cny {
+    background-image: url(/media/1547/currency-info-page-bg-image-intro-mobile-cny.jpg);
+  }
+   .jpy {
+    background-image: url(/media/1553/currency-info-page-bg-image-intro-mobile-jpy.jpg);
+  }
+   .mxn {
+    background-image: url(/media/1555/currency-info-page-bg-image-intro-mobile-mxn.jpg);
+  }
+   .aud {
+    background-image: url(/media/1548/currency-info-page-bg-image-intro-mobile-aud.jpg);
+  }
+   .vnd {
+    background-image: url(/media/1556/currency-info-page-bg-image-intro-mobile-vnd.jpg);
+  }
+  .currency-info-page  .image-intro .currency-buy, .must-see-slideshow{
+    display: none;
+  }
+  .currency-info-page .currency-buy.mobile{
+    display: block !important;
+    width: auto;
+    border: 1px solid #e4e4e4;
+  }
+  .currency-info-page .currency-info-page-header .seven-col{
+    width: auto;
+    float: none;
+    clear: both;
+    display: block;
+  }
+  .currency-info-page-header p{
+    margin-right: 40%;
+  }
+  .exchange-promo .red-button{
+    width: 100%;
+  }
+  .currency-info-page .currency-budget.right{
+    background: #05519f;
+  }
+  .nupd-custom .infographic-array{
+    display: none;
+  }
+  .btn-group button{
+    display: none;
+  }
+  .btn-group .btngroupselect{
+    display: block;
+  }
+  .currency-info-page .image-intro span.cutout{
+    display: block;
+  }
+  .currency-info-page .image-intro span.cutout:before, .currency-info-page .image-intro span.cutout:after{
+    background: #fff;
+  }
+  .currency-info-page .dark-bg{
+    background: #fff;
+  }
+  .currency-info-page .dark-bg.currency-page-misc{
+   background: #eeefef; 
+  }
+  .currency-info-page .dark-bg .currency-buy.mobile{
+    margin: 20px 0 10px 0;
+  }
+  .exchange-promo-slider .six-col{
+    margin-right: 0;
+  }
+  .currency-info-page .currency-budget .currency-budget-calc-result, .currency-info-page .currency-budget .currency-budget-calc{
+    padding: 10px 20px;
+  }
+  .currency-info-page .currency-budget{
+    padding-bottom: 0;
+  }
+   .currency-info-page .currency-budget .currency-budget-calc-result .red-button{
+    margin: 30px 0px;
+  }
+  /* gbp */
+  .currency-info-page .image-intro.gbp .currency-info-page-header p{
+  color: #fff;
+  background: rgba(0,0,0,0.6);
+padding: 10px;
+}
+/* gbp */
+
+
+}
+@media only screen and (max-width: 480px){
+
+  .currency-spendings, .currency-info-page .currency-spendings.left{
+    display: none;
+  }
+  .country-budgeting,.currency-page-misc{
+    padding: 0 10px;
+  }
+
+
+  .currency-info-page .currency-page-misc{
+    padding: 0;
+  }
+  .currency-info-page .currency-budget .currency-budget-calc .btn.blue-btn, .currency-info-page .currency-budget .currency-budget-calc-result .red-button{
+    width:100%;
+  }
+  .currency-info-page .exchange-promo h1{
+    font-size: 25px;
+  }
+  .currency-info-page .left.tvx-testimonials-view{
+    margin: 10px;
+  }
+  .currency-info-page .country-budgeting{
+    padding: 0px;
+  }
+  .currency-info-page .dark-bg .currency-buy.mobile{
+    margin: 10px 10px;
+  }
+  .btn-group input[type="radio"] + label span.styled-radio{
+    padding: 15px;
+    font-size: 13px;
+  }
+  .currency-info-page .currency-budget .currency-budget-calc-result, .currency-info-page .currency-budget .currency-budget-calc{
+    padding: 10px;
+  }
+  .currency-budget-calc-result .total-budget{
+    font-size: 45px;
+  }
+  .currency-info-page .currency-budget .currency-budget-calc hr, .currency-info-page .currency-budget .currency-budget-calc-result hr{
+    margin-right: 0px;
+  }
+
+ 
+
+}
+@media only screen and (max-width: 420px){
+ .currency-info-page .currency-budget .currency-budget-calc-result .red-button{
+    margin: 20px 0px;
+  }
+  .currency-info-page .tvx-testimonials p{
+    font-size: 16px;
+    padding: 20px 60px;
+  }
+  .tvx-testimonials{
+    padding: 10px;
+  }
+
+}
+@media only screen and (max-width: 350px){
+.left.tvx-testimonials-view h2 {
+font-size: 18px;
+}
+}
