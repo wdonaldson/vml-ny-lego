@@ -1007,3 +1007,12 @@ font-size: 18px;
 .left.currency-spendings {
     width: 100%;
 }
+.currency-spendings .prime-red {
+    text-align: center;
+}
+
+.currency-info-page .exchange-promo-step li p {
+    font-size: 14px;
+    margin-top: 3px;
+	margin-bottom: 20px;
+}
